@@ -1,20 +1,17 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body {
-    font-family: 'Arial',sans-serif;
+    font-family: 'Arial', sans-serif;
     color: #333;
     line-height: 1.6;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0;
 }
-
 
 header {
     background: #f8f9fa;
@@ -48,14 +45,12 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-
 .banner img {
     width: 100%;
     height: auto;
     display: block;
     border-radius: 8px;
 }
-
 
 .intro {
     text-align: center;
@@ -79,7 +74,6 @@ header nav a:hover {
     border-radius: 8px;
     margin-top: 20px;
 }
-
 
 .destaques {
     text-align: center;
@@ -148,7 +142,6 @@ header nav a:hover {
     margin-bottom: 5px;
 }
 
-
 #instrucoes {
     margin: 20px 0;
     padding: 20px;
@@ -170,7 +163,6 @@ header nav a:hover {
     color: #333;
 }
 
-
 #instrucoes h3 {
     font-size: 22px;
     color: #333;
@@ -186,13 +178,11 @@ iframe {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
 header nav a.active {
     color: #ff7043;
     font-weight: bold;
     border-bottom: 2px solid #ff7043;
 }
-
 
 footer {
     background: #f8f9fa;
@@ -225,7 +215,6 @@ button:hover, button:focus {
     color: #fff;
 }
 
-
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -237,7 +226,6 @@ button:hover, button:focus {
     flex: 1;
     min-width: 200px;
 }
-
 
 .contato {
     margin: 20px 0;
