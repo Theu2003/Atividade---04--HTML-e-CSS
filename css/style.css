@@ -1,11 +1,11 @@
-/* Reset básico para garantir consistência entre navegadores */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo geral */
+
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
@@ -15,14 +15,14 @@ body {
     padding: 0;
 }
 
-/* Cabeçalho */
+
 header {
     background: #f8f9fa;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid #b8b0b0;
 }
 
 header .logo {
@@ -48,7 +48,7 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-/* Seção Banner */
+
 .banner img {
     width: 100%;
     height: auto;
@@ -56,7 +56,7 @@ header nav a:hover {
     border-radius: 8px;
 }
 
-/* Seção Intro */
+
 .intro {
     text-align: center;
     margin: 40px 0;
@@ -73,14 +73,14 @@ header nav a:hover {
 }
 
 .intro img {
-    width: 300px; /* Tamanho fixo */
-    height: 200px; /* Tamanho fixo */
-    object-fit: cover; /* Manter a proporção da imagem */
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover;
     border-radius: 8px;
     margin-top: 20px;
 }
 
-/* Seção Destaques */
+
 .destaques {
     text-align: center;
     margin: 40px 0;
@@ -112,8 +112,8 @@ header nav a:hover {
 
 .destaque-item img {
     width: 100%;
-    height: 200px; /* Tamanho fixo */
-    object-fit: cover; /* Manter a proporção da imagem */
+    height: 200px;
+    object-fit: cover;
     border-bottom: 1px solid #ddd;
 }
 
@@ -123,7 +123,77 @@ header nav a:hover {
     color: #007bff;
 }
 
-/* Rodapé */
+#ingredientes {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #e3f2fd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#ingredientes h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+#ingredientes ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #333;
+}
+
+#ingredientes li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+#instrucoes {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff3e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#instrucoes h2 {
+    font-size: 24px;
+    color: #ff7043;
+    margin-bottom: 10px;
+}
+
+#instrucoes p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+#instrucoes h3 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 20px;
+}
+
+iframe {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+header nav a.active {
+    color: #ff7043;
+    font-weight: bold;
+    border-bottom: 2px solid #ff7043;
+}
+
+
 footer {
     background: #f8f9fa;
     padding: 20px;
@@ -133,7 +203,7 @@ footer {
 }
 
 footer p {
-    margin-bottom: 10px;
+    color: #666;
 }
 
 footer a {
@@ -144,4 +214,54 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+a:focus {
+    outline: 2px dashed #00448d;
+}
+
+button:hover, button:focus {
+    background-color: #aa3410;
+    color: #fff;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: 1;
+    min-width: 200px;
+}
+
+
+.contato {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #e8f5e9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contato h2 {
+    font-size: 24px;
+    color: #028b09;
+    margin-bottom: 10px;
+}
+
+.contato p, .contato ul {
+    font-size: 18px;
+    color: #333;
+}
+
+.contato ul {
+    list-style-type: none;
+}
+
+.contato li {
+    margin-bottom: 10px;
 }
